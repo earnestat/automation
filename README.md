@@ -1,2 +1,2 @@
 # automation
-test automation projects
+test automation projects based on selenium
