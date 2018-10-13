@@ -18,7 +18,7 @@
     <!-- File Appender -->
 
     <appender name="fileAppender" class="org.apache.log4j.FileAppender">
-        <param name="File" value="C:/selenium/CoreJavaTut/Log4JProj/src/Log4j.log"/>
+        <param name="File" value="C:/work.java/automation/log4JProj/Log4j.log"/>
         <param name="Append" value="false"/>
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="%d{dd/MM/yyyy HH:mm:ss} %-5p %c{2} - %m%n"/>
@@ -28,7 +28,7 @@
     <!-- HTML Appender -->
 
     <appender name="htmlAppender" class="org.apache.log4j.DailyRollingFileAppender">
-        <param name="File" value="C:/selenium/CoreJavaTut/Log4JProj/log.html"/>
+        <param name="File" value="C:/work.java/automation/log4JProj/log.html"/>
         <param name="DatePattern" value="'.'yyyy-MM-dd-HH'.html'"/>
         <layout class="org.apache.log4j.HTMLLayout"/>
         <!--/layout-->
